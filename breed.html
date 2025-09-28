@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Breeds - All About Cats</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .breed-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+
+    .breed-card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .breed-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">All About Cats</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-heart"></i> Home</a></li>
+          <li><a href="breed.html" class="active"><i class="fas fa-info-circle"></i> Breeds</a></li>
+          <li><a href="care.html"><i class="fas fa-heartbeat"></i> Care</a></li>
+          <li><a href="adoption-guide.html"><i class="fas fa-paw"></i> Adoption Guide</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="breed-page">
+    <div class="container">
+      <h1>Popular Cat Breeds</h1>
+      <p>Learn more about the most loved cat breeds, their origins, personalities, and lifespans.</p>
+
+      <div class="breed-grid">
+        <div class="breed-card">
+          <img src="images/persian.jpg" alt="Persian Cat" />
+          <h2>Persian</h2>
+          <p><strong>Persian Origin:</strong> Persia (Iran)</p>
+          <p><strong>Temperament:</strong>  Soft, quiet, loving</p>
+          <p><strong>Lifespan:</strong> 12–16 years</p>
+          <p>
+            Round noses with small muzzles and long, luxuriant fur define Persian cats.
+            They like a peaceful surroundings and have a nice, mild attitude.
+          </p>
+        </div>
+
+        <div class="breed-card">
+          <img src="images/ragdoll.jpg" alt="Ragdoll Cat" />
+          <h2>Ragdoll</h2>
+          <p><strong>Origin:</strong> United States</p>
+          <p><strong>Temperament:</strong> Laid back, loving, modest</p>
+          <p><strong>Lifespan:</strong> 12–17 years</p>
+          <p>
+            Large, laid-back cats notorious for falling limp upon being picked up are 
+            ragdolls. They are quiet, kind, and like hanging around with people.
+
+          </p>
+        </div>
+
+        <div class="breed-card">
+          <img src="images/tabby.jpg" alt="Tabby Cat" />
+          <h2>Tabby</h2>
+          <p><strong>Origin:</strong> Various</p>
+          <p><strong>Temperament:</strong> Friendly, playful, curious</p>
+          <p><strong>Lifespan:</strong> 12–18 years</p>
+          <p>
+            Tabby cats are not a breed but a pattern seen in many breeds. They are known for
+            their stripes, spots, or swirls, and tend to be outgoing and affectionate.
+          </p>
+        </div>
+
+        <div class="breed-card">
+          <img src="images/bengal.jpg" alt="Bengal Cat" />
+          <h2>Bengal</h2>
+          <p><strong>Origin:</strong> United States</p>
+          <p><strong>Temperament:</strong> Active, energetic, playful</p>
+          <p><strong>Lifespan:</strong> 12–16 years</p>
+          <p>
+            Bengals coats are wild-looking, leopard-like and quite distinctive. They are 
+            bright, athletic, and like playing—especially in water!
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 All About Cats. Your comprehensive resource for all things feline.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
